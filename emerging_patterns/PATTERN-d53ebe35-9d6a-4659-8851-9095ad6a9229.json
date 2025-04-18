@@ -1,0 +1,18 @@
+{
+  "title": "TCS Credit Mismatch in E-commerce Seller",
+  "pattern_id": "PATTERN-d53ebe35-9d6a-4659-8851-9095ad6a9229",
+  "detected_behavior": [
+    "TCS credited in electronic cash ledger exceeds GSTR-3B declared sales",
+    "Mismatch persists over multiple periods"
+  ],
+  "recommended_action": [
+    "Compare GSTR-3B with GSTR-8 entries per period",
+    "Issue SCN if suppression confirmed",
+    "Use GSTR-7 for cross-verification in government suppliers"
+  ],
+  "tags": [
+    "tcs",
+    "ecommerce",
+    "gstr8"
+  ]
+}

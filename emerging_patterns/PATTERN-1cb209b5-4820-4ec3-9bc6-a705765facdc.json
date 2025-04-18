@@ -1,0 +1,19 @@
+{
+  "title": "Circular Trading via Shell Entity",
+  "pattern_id": "PATTERN-1cb209b5-4820-4ec3-9bc6-a705765facdc",
+  "detected_behavior": [
+    "High-frequency purchase and sales between related entities",
+    "Zero or negative margins across transactions",
+    "Same day in-out transactions for same HSN"
+  ],
+  "recommended_action": [
+    "Match invoice chain with e-way bill records",
+    "Check Rule 86A applicability for ITC reversal",
+    "Investigate under Section 74 for willful misstatement"
+  ],
+  "tags": [
+    "shell",
+    "circular",
+    "fake billing"
+  ]
+}

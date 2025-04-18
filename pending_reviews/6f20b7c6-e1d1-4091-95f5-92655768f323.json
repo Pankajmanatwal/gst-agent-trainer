@@ -1,0 +1,29 @@
+{
+  "submitted_by": {
+    "name": "Pankaj Meena ",
+    "role": "Tax Official",
+    "mobile": "8114454445"
+  },
+  "pattern_id": "emergent_mo_0001",
+  "title": "Passthrough ITC without Tax Payment (GSTR-1 without 3B)",
+  "behavior": [
+    "GSTR-1 filed for 3+ months with taxable outward supplies",
+    "No GSTR-3B filed in same periods",
+    "ITC passed on via GSTR-2A to buyers",
+    "No tax payment or cash ledger debit by supplier"
+  ],
+  "recommended_action": [
+    "Issue SCN under Section 74",
+    "Consider Rule 86A ledger block",
+    "Initiate background verification of supplier"
+  ],
+  "tags": [
+    "passthrough_itc",
+    "outward_suppression",
+    "non_compliance_chain"
+  ],
+  "trainer_notes": "",
+  "status": "\u2705 Confirm",
+  "novel_fraud_suggestion": "newly registeered taxpayer tend to file the first GSTR 1 returns and becomes inoperative thus only pass on fake ITC and run away.",
+  "submitted_at": "2025-04-18T20:44:20.364317"
+}

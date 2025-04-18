@@ -1,0 +1,19 @@
+{
+  "title": "GSTR-1 Higher than GSTR-3B",
+  "pattern_id": "PATTERN-f4212989-632e-419c-8087-7e319f3028f9",
+  "detected_behavior": [
+    "GSTR-1 declared outward is \u20b925L, but GSTR-3B taxable value is \u20b910L",
+    "Taxpayer has passed on ITC without paying tax"
+  ],
+  "recommended_action": [
+    "Send notice under Rule 88C",
+    "Initiate recovery for passed-on ITC",
+    "Review for fake invoicing network"
+  ],
+  "tags": [
+    "gstr1",
+    "gstr3b",
+    "itc",
+    "88C"
+  ]
+}
