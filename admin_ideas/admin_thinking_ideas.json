@@ -1,0 +1,20 @@
+[
+  {
+    "idea_id": "idea_01_tds_vs_3b",
+    "title": "TDS Credit Higher Than Reported Outward Supply",
+    "logic": "If electronic cash ledger shows TDS of ₹2L in CGST and SGST, actual turnover may be over ₹2 crore. But TP declared only ₹1 crore in GSTR-3B.",
+    "suggestion_to_agent": "Generate pattern suggesting outward supply suppression using GSTR-7 vs GSTR-3B mismatch."
+  },
+  {
+    "idea_id": "idea_02_bank_receipt_vs_return",
+    "title": "Bank Receipts Show Higher Sales Than GSTR Declarations",
+    "logic": "Bank account shows ₹1.5 crore of deposits but GSTR-3B shows only ₹50 lakh of turnover. There may be unreported cash sales.",
+    "suggestion_to_agent": "Highlight mismatch between bank and returns; suggest investigation into books, exemptions, and potential suppression."
+  },
+  {
+    "idea_id": "idea_03_gstr1_only_no_3b",
+    "title": "Filed GSTR-1 But Not GSTR-3B",
+    "logic": "TP passed on ITC to buyers via GSTR-1 but didn’t file GSTR-3B. No tax paid, indicating possible paper billing or circular trade.",
+    "suggestion_to_agent": "Build fraud pattern showing tax evasion via ITC passing without tax payment."
+  }
+]
