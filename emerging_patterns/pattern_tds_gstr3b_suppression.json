@@ -1,0 +1,16 @@
+{
+  "pattern_id": "pattern_tds_gstr3b_suppression",
+  "title": "TDS Credit Indicates Higher Turnover Than Declared in GSTR-3B",
+  "detected_behavior": [
+    "TP declared ₹1 crore outward supply in GSTR-3B",
+    "Electronic Cash Ledger shows TDS credit of ₹2 lakh each in CGST and SGST",
+    "This implies actual sales were likely over ₹2 crore",
+    "Mismatch suggests suppression of outward supply"
+  ],
+  "recommended_action": [
+    "Verify TDS from GSTR-7 of deductor",
+    "Issue notice under Section 73/74",
+    "Cross-check with bank credits and invoices"
+  ],
+  "tags": ["TDS", "turnover suppression", "GSTR-7", "GSTR-3B"]
+}

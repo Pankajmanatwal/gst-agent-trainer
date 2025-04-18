@@ -1,0 +1,16 @@
+{
+  "pattern_id": "pattern_bank_credit_vs_gst",
+  "title": "Bank Receipts Much Higher Than GSTR-3B Turnover",
+  "detected_behavior": [
+    "TP shows ₹50 lakh turnover in GSTR-3B",
+    "But bank credits exceed ₹1.5 crore",
+    "No exempt/Nil rated outward supply declared",
+    "Suspected sales outside books or fake ITC usage"
+  ],
+  "recommended_action": [
+    "Seek explanation from TP",
+    "Verify inward invoices and bank reconciliations",
+    "Cross-check with GSTR-2A/2B ITC"
+  ],
+  "tags": ["bank statement", "outward mismatch", "fake ITC", "cash flow discrepancy"]
+}

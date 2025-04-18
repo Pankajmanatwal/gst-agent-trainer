@@ -1,0 +1,16 @@
+{
+  "pattern_id": "pattern_gstr1_3b_mismatch",
+  "title": "GSTR-1 Filed but No GSTR-3B — Possible ITC Passed Without Payment",
+  "detected_behavior": [
+    "TP has filed GSTR-1 but not GSTR-3B for 3 consecutive months",
+    "ITC has been passed on to recipients",
+    "Tax not paid in cash or via ITC",
+    "High risk of circular billing or fake ITC passing"
+  ],
+  "recommended_action": [
+    "Block ITC to recipients under Rule 86A",
+    "Initiate SCN under Section 74",
+    "Investigate parties receiving ITC"
+  ],
+  "tags": ["GSTR-1", "non-filing", "fake ITC", "return mismatch"]
+}
